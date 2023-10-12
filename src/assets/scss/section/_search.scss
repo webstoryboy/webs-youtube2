@@ -24,3 +24,25 @@
         color: #fff;
     }
 }
+
+@media (max-width: 800px){
+    #today {
+        margin-top: 60px;
+    }
+    .search__inner {
+        position: fixed;
+        left: 0; 
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: rgba(0,0,0,0.9);
+        padding: 17px 20px 17px 200px;
+
+        label {
+            left: 213px;
+        }
+        input {
+            padding: 14px 14px 14px 45px;
+        }
+    }
+}
