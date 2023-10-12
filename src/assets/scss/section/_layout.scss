@@ -5,17 +5,26 @@
     width: 260px;
     height: 100%;
     z-index: 10000;
-    background-color: #000;
+    border-right: 1px solid var(--black200);
 }
 #main {
     max-width: 2000px;
     min-height: 100vh;
     margin: 0 auto;
     padding-left: 260px;
-    background-color: #111;
 }
 #footer {
+    margin-top: 100px;
+    background-color: var(--black200);
+    border-top: 1px solid var(--black200);
+    font-size: 0.8rem;
     text-align: center;
-    background-color: #333;
-    padding: 20px 20px 20px 260px;
+    color: var(--black400);
+    padding: 20px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+
+    a {
+        padding: 10px 20px;
+    }
 }
