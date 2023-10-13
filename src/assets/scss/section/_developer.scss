@@ -49,3 +49,20 @@
         
     }
 }
+
+#developerPage {
+    .develpoer__inner {
+        .develpoer {
+            margin-right: 20px;
+
+            .develpoer__img {
+                width: 150px;
+                height: 150px;
+            }
+            .develpoer__info {
+                width: 150px;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
